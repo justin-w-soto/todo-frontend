@@ -7,7 +7,7 @@ import Todos from './Todos.js';
 
 class Home extends Component {
     render() {  
-        return <h1>Dashborard</h1>;
+        return <h1>Dashborard 🌼🏡</h1>;
     }
 }
 class App extends Component {

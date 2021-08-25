@@ -12,7 +12,7 @@ class Auth extends Component {
         const token = await getToken(
             {
                 email: this.state.email,
-                password: this.state.password
+                password: this.state.password,
             },
             this.props.type
         );

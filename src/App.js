@@ -44,7 +44,7 @@ class App extends Component {
 
                </Switch>
             </section>
-                        <div className="appt"> APP TOKEN: { this.state.token && this.state.token.toString() }</div>
+<div className="appt"> APP TOKEN: { this.state.token && this.state.token.toString() }</div>
         </BrowserRouter>
          );
     }

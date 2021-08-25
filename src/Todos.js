@@ -8,6 +8,7 @@ class ToDos extends Component {
     }
     componentDidMount = async () => {
       const toDoz = await getToDos();
+    //   console.log(toDoz);
       this.setState({todos: toDoz})
     }
     render() {
@@ -15,7 +16,7 @@ class ToDos extends Component {
         return (
             <>
                 <h1>TODO: </h1>
-                 <div className="tod">
+                 <div className="tod" >
 
                      {this.state.todos.map((todO) => (
                      <p key={todO.id}>{todO.todo}</p>))}

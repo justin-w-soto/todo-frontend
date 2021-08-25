@@ -1,3 +1,4 @@
+const URL = 'http://localhost:7890';
 
 export async function getToDos() {
     const apiUrl = `${URL}/api/todos`;

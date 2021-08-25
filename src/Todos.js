@@ -6,7 +6,9 @@ class ToDos extends Component {
         console.log(this.props);
         return (
             <>
-                <h1>TODO:</h1>
+                <h1>TODO:
+                    <div className="tod"></div>
+                </h1>
             </>
         );
     }

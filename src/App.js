@@ -7,7 +7,7 @@ import Todos from './Todos.js';
 
 class Home extends Component {
     render() {  
-        return <h1>Dashborard 🌼🏡</h1>;
+        return <h1>Dashborard </h1>;
     }
 }
 class App extends Component {
@@ -28,7 +28,6 @@ class App extends Component {
                 <NavLink to="signin">Sign In</NavLink>
                 <NavLink to="signup">Sign Up</NavLink>
 
-                <div> APP TOKEN: { this.state.token && this.state.token.toString() }</div>
             </header>
             <section className="main">
                 <Switch>
@@ -45,6 +44,7 @@ class App extends Component {
 
                </Switch>
             </section>
+                        <div className="appt"> APP TOKEN: { this.state.token && this.state.token.toString() }</div>
         </BrowserRouter>
          );
     }

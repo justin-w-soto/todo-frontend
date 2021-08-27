@@ -1,4 +1,4 @@
-const URL = 'http://localhost:7890';
+const URL = 'https://gentle-fortress-99178.herokuapp.com/';
 
 export async function getToDos(token) {
     const apiUrl = `${URL}/api/todos`;

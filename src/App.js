@@ -7,7 +7,7 @@ import Todos from './Todos.js';
 
 class Home extends Component {
     render() {  
-        return <h1>Dashborard </h1>;
+        return <h1>Welcome to your todo list. Please sign in or sign up to get things done. </h1>;
     }
 }
 class App extends Component {
@@ -40,7 +40,7 @@ class App extends Component {
                         <Auth setToken={this.setToken} type="signup" {...routerProps} /> )} />
 
                     <Route path="/todos" render={(routerProps) => this.state.token ? (
-                        <Todos {...routerProps} /> ) : (<Redirect to="/signin" /> )} />    
+                        <Todos {...routerProps} token= {this.state.token}  /> ) : (<Redirect to="/signin" /> )} />    
 
                </Switch>
             </section>

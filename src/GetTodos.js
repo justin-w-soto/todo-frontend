@@ -1,4 +1,4 @@
-const URL = 'https://rocky-earth-87443.herokuapp.com/';
+const URL = 'https://rocky-earth-87443.herokuapp.com';
 
 export async function getToDos(token) {
     const apiUrl = `${URL}/api/todos`;

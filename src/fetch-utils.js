@@ -1,4 +1,4 @@
-const URL = 'https://gentle-fortress-99178.herokuapp.com';
+const URL = 'https://rocky-earth-87443.herokuapp.com';
 
 export async function getToken (loginInfo, type) {
     const authURL = `${URL}/auth/${type}`; 
